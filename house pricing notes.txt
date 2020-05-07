@@ -1,0 +1,6 @@
+if there are any null values -found using "df.isna().sum()"
+egnoring 1st column-"df.iloc[:,1:]"
+to normalize data-"(df-df.mean())/df.std()"
+we have 3 hidden layers and 1 layer to outside
+to train the model we use .fit()
+to predict the model we use .predict()
